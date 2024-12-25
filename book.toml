@@ -1,0 +1,14 @@
+[book]
+authors = ["Craig Hill"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Craig Hill"
+
+[output.html]
+default-theme = "coal"
+preferred-dark-theme = "coal"
+mathjax-support = true
+
+[output.html.playground]
+editable = true
