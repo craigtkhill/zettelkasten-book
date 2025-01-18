@@ -6,9 +6,11 @@ src = "src"
 title = "Craig Hill"
 
 [output.html]
-default-theme = "coal"
-preferred-dark-theme = "coal"
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+additional-css = ["theme/custom.css"]
 mathjax-support = true
+disable-dark-theme = true
 
 [output.html.playground]
 editable = true
