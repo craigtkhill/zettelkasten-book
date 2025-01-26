@@ -1,3 +1,5 @@
+# Connecting Ideas
+
 The Unix philosophy suggests that programs should do one thing and do it well and your notes should do the same.
 
 A rule of thumb is to keep notes short enough and to fit on a single screen without scrolling (and you should break this rule when needed).

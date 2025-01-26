@@ -1,3 +1,5 @@
+# Introduction
+
 A *Zettelkasten* (German for "Note Box") is a garden for growing ideas you accumulate throughout your life. Over time it builds and becomes an architecture to structure your philosophy, help you to solve problems, and guide decisions.
 
 Rather than scatter your digital knowledge throughout different projects, a Zettelkasten acts as your central knowledge management repository. It is the one place where everything you learn goes regardless of the project you are working on.
