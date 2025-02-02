@@ -5,12 +5,12 @@ To decide where to put our notes in relation to each other, it is helpful to use
 ## Time
 Time and attention are our most scarce resources. It is also the one most useful in making or notes discoverable when we need them most.
 The first note should form the entry point to other notes that we can time-bound.
-For example, I have a daily note that reaches all other time-related notes.
+For example, I have a note that I check daily that reaches all other time-related notes.
 This is useful for creating a routine of identifying and nurturing notes that are of most critical importance now.
 ## Context
 These are notes that are grouped related to a specific problem or occasion you have encountered or may encounter.
 They work a little bit like Time except there is no requirement schedule them in advance.
-You just access the information as needed when you encounter then context, enabling you to can act on the fly.
+You just access the information as needed when you encounter the context, enabling you to can act on the fly to any situation.
 ## Category
 These are the broad categories notes can belong to. You can think of them as genres for books or departments in a government.
 They largely should not overlap with each other. Although there's no need to strictly enforce this.
