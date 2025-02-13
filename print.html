@@ -227,6 +227,17 @@ Chief among them for me right now is the question of "What notes should I organi
 <p>While I could create a plugin for Obsidian, I wanted something that doesn't rely on any particular interface
 and that could be extended to work with any workflow, including Vim.</p>
 <p>Hence, I started creating this cli tool in Rust. Welcome to the user guide and documentation for <code>zrt</code>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="yaml-frontmatter"><a class="header" href="#yaml-frontmatter">YAML Frontmatter</a></h1>
+<p>The first thing you need to know about <code>zrt</code> is that it uses yaml frontmatter to organize metadata about your notes.</p>
+<p>Your YAML frontmatter should look like this and be placed at the very top of the file.</p>
+<pre><code class="language-markdown">---
+tags:
+  - refactored
+  - blogged
+---
+</code></pre>
+<p><em>Note</em> The <code>refactored</code> tag lets me know that this note has already been processed and the <code>blogged</code> tag informs me that I have shared this note.</p>
+<p>The tags you use are completely flexible. You can tag however you see fit.</p>
 
                     </main>
 

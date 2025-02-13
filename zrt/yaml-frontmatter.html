@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Zettelkasten Refactor Tool - Zettelkasten Refactoring - Craig Hill</title>
+        <title>YAML Frontmatter - Zettelkasten Refactoring - Craig Hill</title>
 
 
         <!-- Custom HTML head -->
@@ -155,30 +155,26 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="zettelkasten-refactor-tool"><a class="header" href="#zettelkasten-refactor-tool">Zettelkasten Refactor Tool</a></h1>
-<p>To help manage my Zettelkasten, I'm building <code>zrt</code> - the <em>Zettelkasten Refactor Tool</em>.
-<code>zrt</code> has two primary goals.</p>
-<ol>
-<li>to be a command line tool to help nurture Zettelkasten notes and</li>
-<li>to be an introductory project for me to learn the Rust programming language.</li>
-</ol>
-<p>My ordinary workflow involves using Obsidian. However, certain tasks require specific tools to help me with challenges I face.
-Chief among them for me right now is the question of "What notes should I organize next?".</p>
-<p>While I could create a plugin for Obsidian, I wanted something that doesn't rely on any particular interface
-and that could be extended to work with any workflow, including Vim.</p>
-<p>Hence, I started creating this cli tool in Rust. Welcome to the user guide and documentation for <code>zrt</code>.</p>
+                        <h1 id="yaml-frontmatter"><a class="header" href="#yaml-frontmatter">YAML Frontmatter</a></h1>
+<p>The first thing you need to know about <code>zrt</code> is that it uses yaml frontmatter to organize metadata about your notes.</p>
+<p>Your YAML frontmatter should look like this and be placed at the very top of the file.</p>
+<pre><code class="language-markdown">---
+tags:
+  - refactored
+  - blogged
+---
+</code></pre>
+<p><em>Note</em> The <code>refactored</code> tag lets me know that this note has already been processed and the <code>blogged</code> tag informs me that I have shared this note.</p>
+<p>The tags you use are completely flexible. You can tag however you see fit.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../zettelkasten/time-context-category-heirarchy.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../zrt/zettelkasten-refactor-tool.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../zrt/yaml-frontmatter.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -186,13 +182,10 @@ and that could be extended to work with any workflow, including Vim.</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../zettelkasten/time-context-category-heirarchy.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../zrt/zettelkasten-refactor-tool.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../zrt/yaml-frontmatter.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
             </nav>
 
         </div>
