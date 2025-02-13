@@ -238,6 +238,18 @@ tags:
 </code></pre>
 <p><em>Note</em> The <code>refactored</code> tag lets me know that this note has already been processed and the <code>blogged</code> tag informs me that I have shared this note.</p>
 <p>The tags you use are completely flexible. You can tag however you see fit.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ignoring-folders"><a class="header" href="#ignoring-folders">Ignoring Folders</a></h1>
+<p>If there are files and folders you don't want to consider in your refactoring,
+you can add a <code>.zrtignore</code> file to the root of your obsidian vault or knowledge management folder.</p>
+<p>It works like a <code>.gitignore</code> file.</p>
+<pre><code class="language-markdown"># /.zrtignore
+ARCHIVE/
+CALENDAR/
+DRAWINGS/
+IMAGES/
+.git/
+</code></pre>
+<p>now the files in these folders will be ignored by the <code>zrt</code> tool.</p>
 
                     </main>
 

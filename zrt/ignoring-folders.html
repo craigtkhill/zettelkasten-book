@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>YAML Frontmatter - Zettelkasten Refactoring - Craig Hill</title>
+        <title>Ignoring Folders - Zettelkasten Refactoring - Craig Hill</title>
 
 
         <!-- Custom HTML head -->
@@ -155,29 +155,27 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="yaml-frontmatter"><a class="header" href="#yaml-frontmatter">YAML Frontmatter</a></h1>
-<p>The first thing you need to know about <code>zrt</code> is that it uses yaml frontmatter to organize metadata about your notes.</p>
-<p>Your YAML frontmatter should look like this and be placed at the very top of the file.</p>
-<pre><code class="language-markdown">---
-tags:
-  - refactored
-  - blogged
----
+                        <h1 id="ignoring-folders"><a class="header" href="#ignoring-folders">Ignoring Folders</a></h1>
+<p>If there are files and folders you don't want to consider in your refactoring,
+you can add a <code>.zrtignore</code> file to the root of your obsidian vault or knowledge management folder.</p>
+<p>It works like a <code>.gitignore</code> file.</p>
+<pre><code class="language-markdown"># /.zrtignore
+ARCHIVE/
+CALENDAR/
+DRAWINGS/
+IMAGES/
+.git/
 </code></pre>
-<p><em>Note</em> The <code>refactored</code> tag lets me know that this note has already been processed and the <code>blogged</code> tag informs me that I have shared this note.</p>
-<p>The tags you use are completely flexible. You can tag however you see fit.</p>
+<p>now the files in these folders will be ignored by the <code>zrt</code> tool.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../zrt/zettelkasten-refactor-tool.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../zrt/yaml-frontmatter.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../zrt/ignoring-folders.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -185,13 +183,10 @@ tags:
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../zrt/zettelkasten-refactor-tool.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../zrt/yaml-frontmatter.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../zrt/ignoring-folders.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
             </nav>
 
         </div>
