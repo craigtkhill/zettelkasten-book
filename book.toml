@@ -11,6 +11,7 @@ preferred-dark-theme = "ayu"
 additional-css = ["theme/custom.css"]
 mathjax-support = true
 disable-dark-theme = true
+copy-static-files = true
 
 [output.html.playground]
 editable = true
