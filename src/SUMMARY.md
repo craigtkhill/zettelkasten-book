@@ -7,3 +7,4 @@
 
 - [Zettelkasten Refactor Tool](zrt/zettelkasten-refactor-tool.md)
   - [YAML Frontmatter](zrt/yaml-frontmatter.md)
+  - [Ignoring Folders](zrt/ignoring-folders.md)
