@@ -6,12 +6,17 @@ src = "src"
 title = "NOT.AI  CHill"
 
 [output.html]
-default-theme = "ayu"
-preferred-dark-theme = "ayu"
+cname = "craighill.dev"
+default-theme = "colibri"
+preferred-dark-theme = "colibri"
 additional-css = ["theme/custom.css"]
+git-repository-url = "https://github.com/craigtkhill/zettelkasten-book"
 mathjax-support = true
 disable-dark-theme = true
 copy-static-files = true
 
 [output.html.playground]
 editable = true
+
+[output.html.search]
+use-boolean-and = true
