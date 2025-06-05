@@ -1,6 +1,341 @@
+/* Base styling */
 body {
     font-size: 20px;
+    background: #0d1117;
+    color: #c9d1d9;
 }
+
+/* Hide theme switcher since you have dark theme disabled */
 .fa-paint-brush {
     display: none;
+}
+
+/* Dark coding theme color variables */
+:root {
+    --bg: #0d1117;
+    --fg: #c9d1d9;
+    --sidebar-bg: #161b22;
+    --sidebar-fg: #c9d1d9;
+    --sidebar-non-existant: #6e7681;
+    --sidebar-active: #238636;
+    --sidebar-spacer: #21262d;
+    --scrollbar: #30363d;
+    --icons: #7d8590;
+    --icons-hover: #c9d1d9;
+    --links: #58a6ff;
+    --inline-code-color: #f85149;
+    --theme-popup-bg: #161b22;
+    --theme-popup-border: #30363d;
+    --theme-hover: #21262d;
+    --quote-bg: #0d1117;
+    --quote-border: #30363d;
+    --table-border-color: #30363d;
+    --table-header-bg: #161b22;
+    --table-alternate-bg: #0d1117;
+    --searchbar-border-color: #30363d;
+    --searchbar-bg: #21262d;
+    --searchbar-fg: #c9d1d9;
+    --search-mark-bg: #3d1e00;
+}
+
+/* Main content container */
+.content {
+    background: var(--bg);
+    color: var(--fg);
+    padding: 30px;
+    max-width: 900px;
+    line-height: 1.6;
+}
+
+/* Sidebar styling - reduced gaps */
+.sidebar {
+    background: var(--sidebar-bg);
+    border-right: 1px solid #30363d;
+}
+
+.sidebar .chapter {
+    padding: 2px 0; /* Reduced from default 5px */
+    margin: 0; /* Remove any default margins */
+}
+
+.sidebar .chapter a {
+    padding: 6px 15px; /* Reduced vertical padding from 8px to 6px */
+    display: block;
+    border-radius: 4px;
+    margin: 1px 8px; /* Reduced from 2px to 1px */
+    transition: background-color 0.2s;
+    color: var(--sidebar-fg);
+}
+
+.sidebar .chapter a:hover {
+    background: var(--theme-hover);
+    text-decoration: none;
+}
+
+.sidebar .chapter.expanded > a,
+.sidebar .chapter.active > a {
+    background: var(--sidebar-active);
+    color: white;
+}
+
+/* Remove extra spacing between chapter sections */
+.sidebar ol {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling - cool dark theme */
+.chapter h1,
+.chapter h2,
+.chapter h3,
+.chapter h4,
+.chapter h5,
+.chapter h6 {
+    color: #58a6ff;
+    font-weight: 600;
+}
+
+.chapter h1 {
+    border-bottom: 2px solid #238636;
+    padding-bottom: 10px;
+    color: #7ee787;
+}
+
+.chapter h2 {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 5px;
+    color: #79c0ff;
+}
+
+.chapter h3 {
+    color: #ffa657;
+}
+
+/* Code blocks - dark coding style */
+.hljs {
+    background: #0d1117 !important;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #c9d1d9;
+}
+
+/* Syntax highlighting colors */
+.hljs-keyword {
+    color: #ff7b72;
+}
+.hljs-string {
+    color: #a5d6ff;
+}
+.hljs-comment {
+    color: #8b949e;
+    font-style: italic;
+}
+.hljs-function {
+    color: #d2a8ff;
+}
+.hljs-variable {
+    color: #79c0ff;
+}
+.hljs-number {
+    color: #79c0ff;
+}
+.hljs-built_in {
+    color: #ffa657;
+}
+.hljs-title {
+    color: #7ee787;
+}
+.hljs-attr {
+    color: #79c0ff;
+}
+.hljs-tag {
+    color: #7ee787;
+}
+
+/* Inline code */
+code {
+    background: #161b22;
+    color: #f85149;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    border: 1px solid #30363d;
+}
+
+/* Blockquotes - dark style */
+blockquote {
+    border-left: 4px solid #58a6ff;
+    background: #161b22;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    border: 1px solid #30363d;
+}
+
+blockquote p {
+    margin: 0;
+    font-style: italic;
+    color: #8b949e;
+}
+
+/* Tables - dark theme */
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+    background: var(--bg);
+}
+
+table th {
+    background: var(--table-header-bg);
+    font-weight: 600;
+    text-align: left;
+    color: #7ee787;
+}
+
+table th,
+table td {
+    border: 1px solid var(--table-border-color);
+    padding: 12px 15px;
+}
+
+table tbody tr:nth-child(even) {
+    background: #161b22;
+}
+
+table tbody tr:hover {
+    background: #21262d;
+}
+
+/* Links */
+a {
+    color: var(--links);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #79c0ff;
+}
+
+/* Navigation buttons */
+.nav-chapters {
+    margin-top: 30px;
+}
+
+.nav-chapter {
+    padding: 10px 15px;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    color: var(--fg);
+}
+
+.nav-chapter:hover {
+    background: #21262d;
+    text-decoration: none;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #161b22;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #484f58;
+}
+
+/* Custom admonition styles */
+.admonition {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid;
+    background: #161b22;
+}
+
+.admonition.note {
+    border-color: #58a6ff;
+    background: #0d1829;
+}
+
+.admonition.warning {
+    border-color: #d29922;
+    background: #1e1611;
+}
+
+.admonition.danger {
+    border-color: #f85149;
+    background: #1a0f0d;
+}
+
+/* Search styling */
+.searchbar {
+    background: var(--searchbar-bg);
+    border: 1px solid var(--searchbar-border-color);
+    color: var(--searchbar-fg);
+}
+
+.searchresults {
+    background: var(--theme-popup-bg);
+    border: 1px solid var(--theme-popup-border);
+}
+
+/* Menu and mobile styles */
+.menu-bar {
+    background: var(--sidebar-bg);
+    border-bottom: 1px solid #30363d;
+}
+
+.menu-bar .icon-button {
+    color: var(--icons);
+}
+
+.menu-bar .icon-button:hover {
+    color: var(--icons-hover);
+}
+
+/* Selection styling */
+::selection {
+    background: #264f78;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #264f78;
+    color: #ffffff;
+}
+
+/* Print styles */
+@media print {
+    .sidebar,
+    .nav-chapters,
+    .fa {
+        display: none !important;
+    }
+
+    .content {
+        margin-left: 0;
+        max-width: none;
+        background: white;
+        color: black;
+    }
 }
