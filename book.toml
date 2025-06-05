@@ -3,7 +3,7 @@ authors = ["Craig Hill"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Zettelkasten Refactoring - Craig Hill"
+title = "NOT.AI  CHill"
 
 [output.html]
 default-theme = "ayu"
