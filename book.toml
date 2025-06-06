@@ -3,7 +3,7 @@ authors = ["Craig Hill"]
 language = "en"
 multilingual = false
 src = "src"
-title = "NOT.AI  CHill"
+title = "NOT.AI CHill"
 
 [output.html]
 cname = "craighill.dev"
