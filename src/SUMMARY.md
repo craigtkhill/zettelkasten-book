@@ -1,6 +1,7 @@
 # Summary
 
 - [Introduction](ai/introduction.md)
+  - [AI Pair Programming](ai/pair-programming.md)
   - [AI Uses](ai/ai-uses.md)
 - [Introduction](zettelkasten/zettelkasten-introduction.md)
   - [Connecting Ideas](zettelkasten/connecting-ideas.md)
