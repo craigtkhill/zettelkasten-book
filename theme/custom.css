@@ -5,7 +5,7 @@ body {
     color: #c9d1d9;
 }
 
-/* Hide theme switcher since you have dark theme disabled */
+/* Hide theme switcher */
 .fa-paint-brush {
     display: none;
 }
@@ -47,24 +47,53 @@ body {
     line-height: 1.6;
 }
 
-/* Sidebar styling - reduced gaps */
+/* Sidebar styling */
 .sidebar {
     background: var(--sidebar-bg);
     border-right: 1px solid #30363d;
 }
 
 .sidebar .chapter {
-    padding: 2px 0; /* Reduced from default 5px */
-    margin: 0; /* Remove any default margins */
+    padding: 1px 0;
+    margin: 0;
 }
 
 .sidebar .chapter a {
-    padding: 6px 15px; /* Reduced vertical padding from 8px to 6px */
+    padding: 1px 15px;
     display: block;
     border-radius: 4px;
-    margin: 1px 8px; /* Reduced from 2px to 1px */
+    margin: 1px 8px;
     transition: background-color 0.2s;
     color: var(--sidebar-fg);
+}
+
+/* Top-level chapters */
+.sidebar ul.chapter > li > a {
+    color: #7ee787;
+    font-weight: 600;
+}
+
+/* Second-level chapters */
+.sidebar ul.section {
+    margin-left: 20px !important;
+}
+
+.sidebar ul.section > li > a {
+    color: #79c0ff;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+/* Third-level sections */
+.sidebar ul.section ul.section {
+    margin-left: 40px !important;
+}
+
+.sidebar ul.section ul.section > li > a {
+    color: #ffa657;
+    font-weight: 300;
+    font-size: 0.95em;
+    margin-left: 8px;
 }
 
 .sidebar .chapter a:hover {
@@ -76,17 +105,6 @@ body {
 .sidebar .chapter.active > a {
     background: var(--sidebar-active);
     color: white;
-}
-
-/* Remove extra spacing between chapter sections */
-.sidebar ol {
-    margin: 0;
-    padding: 0;
-}
-
-.sidebar li {
-    margin: 0;
-    padding: 0;
 }
 
 /* Header styling - cool dark theme */
