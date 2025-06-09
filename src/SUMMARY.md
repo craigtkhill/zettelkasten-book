@@ -3,6 +3,7 @@
 - [AI](ai/introduction.md)
   - [AI Pair Programming](ai/pair-programming.md)
   - [Limit AI](ai/limit-ai.md)
+    - [Limit: Copy/Pasting](ai/copy-paste.md)
   - [What to work on](ai/what-to-work-on.md)
   - [AI Uses](ai/ai-uses.md)
 - [Zettelkasten](zettelkasten/zettelkasten-introduction.md)
