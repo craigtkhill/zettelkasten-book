@@ -6,6 +6,7 @@
     - [Limit: Copy/Pasting](ai/copy-paste.md)
   - [What to work on](ai/what-to-work-on.md)
   - [AI Uses](ai/ai-uses.md)
+  - [Advantage in an AI world](ai/advantage.md)
 - [Zettelkasten](zettelkasten/zettelkasten-introduction.md)
   - [Connecting Ideas](zettelkasten/connecting-ideas.md)
   - [Capture, Nurture, Share](zettelkasten/capture-nurture-share.md)
