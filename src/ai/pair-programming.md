@@ -13,5 +13,7 @@ Pair programming with a collegue is where you are taking turns to be the driver 
 	- Considers the broader architecture and design decisions
 	- Asks questions and suggests alternatives
 
+The reason to pair program is to get extra eyes on the code, spread understanding, reduce technical debt and share learning.
+
 Right now the way we are using AI can be considered pair programming where the human is the navigator prompting AI to drive the code generation.
 But what if the software engineer is the driver and AI the navigator?
