@@ -10,4 +10,5 @@ Start projects where there is no rush, no expectations, build those skills slowl
 2. Devote half your time to thinking without AI.
 3. Ban yourself from copy/pasting code.
 4. Read the documentation first to understand how a library works.
-5. Develop your tools and use them.
+5. Use smaller locally hosted models
+6. Develop your tools and use them.
