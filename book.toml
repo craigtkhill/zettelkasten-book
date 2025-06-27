@@ -10,13 +10,13 @@ cname = "craighill.dev"
 default-theme = "colibri"
 preferred-dark-theme = "colibri"
 additional-css = ["theme/custom.css"]
-git-repository-url = "https://github.com/craigtkhill/zettelkasten-book"
+git-repository-url = "https://github.com/craigtkhill"
 mathjax-support = true
 disable-dark-theme = true
 copy-static-files = true
 no-section-label = true
 fold.enable = true
-fold.level = 0                                                          #
+fold.level = 0                                        #
 
 [output.html.playground]
 editable = true
