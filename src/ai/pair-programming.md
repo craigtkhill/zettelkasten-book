@@ -1,5 +1,5 @@
-The future of AI assisted software engineering is not writing code, it's pair programming.
-Pair programming with a collegue is where you are taking turns to be the driver and navigator.
+The future of AI-assisted software engineering is not writing code; it's pair programming.
+Pair programming with a colleague is where you take turns to be the driver and navigator.
 
 - **Driver:**
 	- Controls the keyboard and mouse
@@ -9,11 +9,11 @@ Pair programming with a collegue is where you are taking turns to be the driver 
 - **Navigator:**
 	- Reviews the code as it's being written
 	- Thinks about the bigger picture and overall direction
-	- Spots potential issues, bugs, or improvements
+	- Spot potential issues, bugs, or improvements
 	- Considers the broader architecture and design decisions
 	- Asks questions and suggests alternatives
 
-The reason to pair program is to get extra eyes on the code, spread understanding, reduce technical debt and share learning.
+The reason to pair program is to get extra eyes on the code, spread understanding, reduce technical debt, and share learning.
 
-Right now the way we are using AI can be considered pair programming where the human is the navigator prompting AI to drive the code generation.
+Right now, the way we are using AI can be considered pair programming where the human is the navigator, prompting AI to drive the code generation.
 But what if the software engineer is the driver and AI the navigator?
