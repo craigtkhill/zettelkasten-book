@@ -188,21 +188,21 @@ frequency = "irregular random rolling releases"
 github = "github.com/craigtkhill"
 linkedin = "linkedin.com/in/craigtkhill"
 </code></pre>
-<div style="break-before: page; page-break-before: always;"></div><p>I've been having a lot of thoughts about AI lately. These thoughts on how we are using AI revolve around a singular point. Sure, developers are losing their precision, creativity, autonomy, but most severely, coding became not fun.</p>
+<div style="break-before: page; page-break-before: always;"></div><p>I've been having a lot of thoughts about AI lately. These thoughts on how we are using AI revolve around a singular point. Sure, developers are losing their precision, creativity, autonomy, but most severely, coding is not fun.</p>
 <p>There was a branching point at which using AI to help code stopped being fun. This was around the time that developers started trading Copilot's basic line completion for more cursor-style vibe coding IDEs.</p>
 <p>I notice that as LLMs take bigger and bigger steps, the quality of their output declines. Sure, they might do fantastically on benchmarks, but their benchmarks do not match my real-world use case. So I can't rely on their APIs for a stable workflow. I'm not saying we should stop using AI for development. But we should stop relying on it. I don't want AI tools that write all the code. I want tools to write the code the way I want to write it.</p>
 <h2 id="requirements"><a class="header" href="#requirements">REQUIREMENTS</a></h2>
 <p>As a developer...</p>
 <ul>
-<li>I want an pair programmer that helps me improve my coding skills, so that I can learn better practices and techniques through our collaboration.</li>
-<li>I want a pair programmer that reviews and validates my code without writing it for me, so that I can catch errors and improve code quality.</li>
-<li>I want to work with immediate feedback, so that I can validate code quickly and avoid wasting time moving slowly in big imprecise steps.</li>
-<li>I want to achieve a flow state, so that I can be maximally productive and engaged with my work.</li>
+<li>I want a pair programmer who helps me improve my coding skills, so that I can learn better practices and techniques through our collaboration.</li>
+<li>I want a pair programmer who reviews and validates my code without writing it for me, so that I can catch errors and improve code quality.</li>
+<li>I want to work with immediate feedback, so that I can validate code quickly and avoid wasting time moving slowly in big, imprecise steps.</li>
+<li>I want to achieve a flow state so that I can be maximally productive and engaged with my work.</li>
 <li>I want to refine my code line-by-line in real time, so that I can catch issues immediately rather than dealing with large, error-prone walls of code.</li>
 <li>I want to understand my codebase and how it functions, so that I can maintain full ownership and knowledge of my system.</li>
 <li>I want to maintain full control over system architecture and design decisions, so that the overall structure reflects my vision and requirements.</li>
 </ul>
-<p>As far as I can tell in my research, no one else is implementing AI to meet these requirements. The direction we are collectively heading has become so painful that I find myself in desperate need to trying something different.</p>
+<p>As far as I can tell in my research, no one else is implementing AI to meet these requirements. The direction we are collectively heading has become so painful that I find myself in desperate need to try something different.</p>
 <p>The goal is to make programming fun again, and who knows, maybe it will give me an advantage in reducing the amount of slop I need to clean up. Maybe there is a reason everyone is going in the same direction. However, it's not working for me.</p>
 <div style="break-before: page; page-break-before: always;"></div><p>Before we dive into trying to make AI work better, here are some of the things I think AI does quite well.</p>
 <h2 id="socratic-method"><a class="header" href="#socratic-method">Socratic Method</a></h2>
@@ -231,8 +231,8 @@ Also, if you think this is a trend that's changing, and there is evidence of a s
 <p>If you know how to use your tools, using AI often isn't that helpful. If you know how to write code and know what you want, then it is often faster to write the code yourself rather than repeatedly prompt AI until it gives you the code you are looking for. Sometimes you may have processes that you understand very well and are worthwhile automating. AI is great for these tasks. However, I suggest you create a system that uses AI to funnel data into it rather than using the AI (and I mean specifically the model) as the system itself. Not only is this more reliable, but it will also give you an advantage, so long as your system isn't easily sherlocked, you'll have access to something that makes you more productive than anyone else has.</p>
 <h2 id="deeptech-breakthroughs"><a class="header" href="#deeptech-breakthroughs">Deeptech Breakthroughs</a></h2>
 <p>AI is terrible, especially if you ask it about a domain you know nothing about. But if you know a domain very well and ask the right questions, it can reveal insights that can help you make breakthroughs. Granted, 90% of its suggestions will be pure hocum but if you know your stuff, AI can still be helpful, and you can identify a little golden nugget to explore. Always, check its sources. AI does make progress in deep technical challenges. Google DeepMind created AlphaEvolve, an AI system that found an algorithm to multiply 4x4 complex-valued matrices using 48 scalar multiplications, improving upon Strassen's 1969 algorithm. You should think about this sort of discovery exactly like evolution, the probablility of a new discovery or improvement is extremely small, so if you are prepared to burn down the rainforest and you know how to evaluate an answer is correct, you can make a breakthrough, hopefully that breakthrough is on how not to burn down the rainforest.</p>
-<div style="break-before: page; page-break-before: always;"></div><p>The future of AI assisted software engineering is not writing code, it's pair programming.
-Pair programming with a collegue is where you are taking turns to be the driver and navigator.</p>
+<div style="break-before: page; page-break-before: always;"></div><p>The future of AI-assisted software engineering is not writing code; it's pair programming.
+Pair programming with a colleague is where you take turns to be the driver and navigator.</p>
 <ul>
 <li><strong>Driver:</strong>
 <ul>
@@ -246,14 +246,14 @@ Pair programming with a collegue is where you are taking turns to be the driver 
 <ul>
 <li>Reviews the code as it's being written</li>
 <li>Thinks about the bigger picture and overall direction</li>
-<li>Spots potential issues, bugs, or improvements</li>
+<li>Spot potential issues, bugs, or improvements</li>
 <li>Considers the broader architecture and design decisions</li>
 <li>Asks questions and suggests alternatives</li>
 </ul>
 </li>
 </ul>
-<p>The reason to pair program is to get extra eyes on the code, spread understanding, reduce technical debt and share learning.</p>
-<p>Right now the way we are using AI can be considered pair programming where the human is the navigator prompting AI to drive the code generation.
+<p>The reason to pair program is to get extra eyes on the code, spread understanding, reduce technical debt, and share learning.</p>
+<p>Right now, the way we are using AI can be considered pair programming where the human is the navigator, prompting AI to drive the code generation.
 But what if the software engineer is the driver and AI the navigator?</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="limitations-are-good"><a class="header" href="#limitations-are-good">Limitations are good</a></h1>
 <p>If you find yourself using AI to fix every problem, it can be difficult to wean yourself off. You need immense coding skills you set yourself apart from AI, and you won't learn those relying on AI.</p>
@@ -271,7 +271,7 @@ But what if the software engineer is the driver and AI the navigator?</p>
 <div style="break-before: page; page-break-before: always;"></div><p>The number one slop stopper is to stop copy/pasting code.
 When AI isn't changing large sections of your code, you are forced to read and understand what it is doing.
 So keep the slop out of your IDE and find ways to make it harder for you to copy/paste code.
-Use AI, let it show you how to do something but never copy/paste large blocks of code.</p>
+Use AI, let it show you how to do something, but never copy/paste large blocks of code.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="what-you-should-work-on"><a class="header" href="#what-you-should-work-on">What you should work on</a></h1>
 <ul>
 <li>If AI can't figure something out in three prompts, then you know that's a good sign it's worth your while investigating with human intelligence.</li>
