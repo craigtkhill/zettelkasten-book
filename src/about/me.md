@@ -1,8 +1,7 @@
 ```toml
 [author]
 name = "Craig Hill"
-role = "Machine Learning, AI Applications and Data Engineer"
-current_focus = "How to make coding fun again in an AI world"
+role = "Data Scientist, AI and ML Engineer"
 
 [blog]
 topics = [
