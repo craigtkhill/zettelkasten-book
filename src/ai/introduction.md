@@ -1,10 +1,10 @@
-I've been having a lot of thoughts about AI lately. These thoughts on how we are using AI revolve around a singular point. Sure, developers are losing their precision, creativity, autonomy, but most severely, coding is not fun.
+I've been having a lot of thoughts about AI lately. These thoughts on how we are using AI having been prompted by a singular feeling. Sure, we can argue that developers are losing their precision, creativity, autonomy, but most severely for me coding has for the first time become  **not fun**.
 
 There was a branching point at which using AI to help write code stopped being fun. This was around the time that developers started trading Copilot's basic line completion for more cursor-style vibe coding IDEs.
 
 I notice that as LLMs take bigger and bigger steps, the quality of their output declines. Sure, they might do fantastically on benchmarks, but their benchmarks do not match my real-world use case.
 
-I try to hold in my mind the AI does not stand for Artificial Intelligence but instead it stands for "Articulate Idiot". It does so much so well on the surface but when I dig a little deeper, and have done enough reading and learning to be opinionated about a topic, I find so much of what it outputs is wrong or substandard. And with longer and longer outputs to audit, this becomes frustrating.
+I am equal parts AI skeptic, AI advocate but I try to hold in my mind that the current models and algorithms are less Artificial Intelligence and more *Articulate Idiots*. It does so much so well on the surface but when I dig a little deeper, and have done enough reading and studying to be opinionated about a topic, I find so much of what it outputs is wrong or substandard. And with longer and longer outputs to audit, this becomes frustrating.
 
 So I can't rely on their APIs for a stable workflow. I'm not saying we should stop using AI for development. But we should stop relying on it. I don't want AI tools that write all the code. I want tools to write the code the way I want to write it.
 

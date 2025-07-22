@@ -6,9 +6,9 @@ role = "Data Scientist, AI and ML Engineer"
 [blog]
 topics = [
     "artificial intelligence",
+    "software engineering"
     "zettelkasten",
 ]
-frequency = "irregular random rolling releases"
 
 [contact]
 github = "github.com/craigtkhill"
