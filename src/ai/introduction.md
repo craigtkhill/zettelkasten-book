@@ -4,7 +4,9 @@ There was a branching point at which using AI to help write code stopped being f
 
 I notice that as LLMs take bigger and bigger steps, the quality of their output declines. Sure, they might do fantastically on benchmarks, but their benchmarks do not match my real-world use case.
 
-I am equal parts AI skeptic, AI advocate but I try to hold in my mind that the current models and algorithms are less Artificial Intelligence and more *Articulate Idiots*. It does so much so well on the surface but when I dig a little deeper, and have done enough reading and studying to be opinionated about a topic, I find so much of what it outputs is wrong or substandard. And with longer and longer outputs to audit, this becomes frustrating.
+I subscribe to a healthy mix of critics and optimists in my AI reading diet, and I consider myself equal parts AI skeptic, AI advocate but I try to hold in my mind that the current models and algorithms are less Artificial Intelligence and more *Articulate Idiots*.
+
+It does so much so well on the surface but when I dig a little deeper, and have done enough reading and studying to be opinionated about a topic, I find so much of what it outputs is wrong or substandard. And with longer and longer outputs to audit, this becomes frustrating.
 
 So I can't rely on their APIs for a stable workflow. I'm not saying we should stop using AI for development. But we should stop relying on it. I don't want AI tools that write all the code. I want tools to write the code the way I want to write it.
 
