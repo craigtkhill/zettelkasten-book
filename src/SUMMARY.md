@@ -1,6 +1,6 @@
 # Summary
 
-- [Hello World](about/me.md)
+- [about-me.toml](about/me.md)
 - [AI](ai/introduction.md)
   - [AI Uses](ai/ai-uses.md)
   - [AI Pair Programming](ai/pair-programming.md)
