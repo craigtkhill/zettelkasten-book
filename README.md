@@ -33,6 +33,12 @@ mdbook build
 
 The site will be available at `http://localhost:3000` with automatic reload on file changes.
 
+## 📜 License
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to share and adapt this material for non-commercial purposes with attribution.
+
 ## 🔗 Connect
 
 - **Website**: [craighill.dev](https://craighill.dev)
