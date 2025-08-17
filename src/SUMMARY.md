@@ -2,7 +2,8 @@
 
 - [craig.toml](about/me.md)
 - [AI](ai/introduction.md)
-  - [AI Uses](ai/ai-uses.md)
+  - [AI Uses](ai/uses.md)
+  - [AI Harms](ai/harms.md)
   - [AI Pair Programming](ai/pair-programming.md)
   - [Limit AI](ai/limit-ai.md)
     - [Limit: Copy/Pasting](ai/copy-paste.md)

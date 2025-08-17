@@ -1,0 +1,22 @@
+AI has some benefits; however, its harms are significantly more numerous.
+
+- AI amplifies the Dunning-Kruger effect
+- AI creates reliability problems
+- AI introduces safety concerns
+- AI harms problem-solving abilities
+- AI impedes skills development
+- AI limits idea modeling and conceptualization
+- AI disrupts the deep workflow
+- AI provides no advantage in many cases
+- AI degrades code quality
+- AI creates security vulnerabilities
+- Natural language is imprecise for AI communication
+- AI can slow down work processes
+- AI introduces indeterminism and unpredictability
+- AI makes work more stressful
+- AI reduces productivity through hive-mind effects
+- AI threatens job security
+- AI stifles creativity
+- AI reduces enjoyment and fun in work
+- AI overfits to benchmarks rather than real performance
+- AI inherits and amplifies human flaws
