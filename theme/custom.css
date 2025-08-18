@@ -342,6 +342,16 @@ a:hover {
     color: #ffffff;
 }
 
+/* Reduce spacing below headers */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    margin-block-end: 0.5em; /* Bottom margin */
+}
+
+/* Top margins twice the bottom margins */
+.content h2, .content h3, .content h4, .content h5, .content h6 { 
+    margin-block-start: 1em; /* Top margin twice the bottom */
+}
+
 /* Print styles */
 @media print {
     .sidebar,
