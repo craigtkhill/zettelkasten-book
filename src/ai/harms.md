@@ -1,6 +1,8 @@
-AI has some benefits; however, its harms are significantly more numerous.
+AI has some benefits. However, by my count, its harms are significantly more numerous.
 
-- AI amplifies the Dunning-Kruger effect
+## Amplifies the Dunning-Kruger Effect
+The Dunning-Kruger effect is a cognitive bias where people with limited knowledge or skill in a particular area tend to overestimate their competence in that domain. Thanks to AI, it is now possible to write entire reports and documents on topics you know nothing about. Just look at Curls' problem with [AI-generated slop security reports](https://www.theregister.com/2025/05/07/curl_ai_bug_reports/). Now, it's easier than ever to be bad at something while simultaneously thinking you're great and without doing the hard work to get better, you'll never improve.
+
 - AI creates reliability problems
 - AI introduces safety concerns
 - AI harms problem-solving abilities
